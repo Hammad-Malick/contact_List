@@ -74,11 +74,11 @@ src/
 
 The application uses MockAPI.io with the following endpoints:
 
-- **GET** `/contacts` - Fetch all contacts
-- **GET** `/contacts/{id}` - Fetch a specific contact
-- **GET** `/contacts/{id}/email_addresses` - Fetch email addresses for a contact
+- **GET** `/contact` - Fetch all contacts
+- **GET** `/contact/{id}` - Fetch a specific contact
+- **GET** `/contact/{id}/email_addresses` - Fetch email addresses for a contact
 
-Base URL: `https://66f2bae571c84d805877e53f.mockapi.io/api/v1`
+Base URL: `https://688e68f2a459d5566b14df19.mockapi.io/api/v1`
 
 ## Component Details
 
@@ -113,35 +113,7 @@ ng build --configuration production
 
 The build artifacts will be stored in the `dist/` directory.
 
-## Testing
-
-To run unit tests (if implemented):
-
-```bash
-ng test
-```
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Known Issues
-
-- The MockAPI might have rate limiting
-- Some contact data is mocked/hardcoded for demo purposes
-
-## Future Enhancements
-
-- Add pagination for large contact lists
-- Implement real-time search with debouncing
-- Add unit and integration tests
-- Implement contact editing functionality
-- Add offline support with service workers
-
 ## Demo Video
 
-[Add Loom video link here showing the application functionality]
+https://www.loom.com/share/bfa24d193550459f91b2fc3523302d89
 
